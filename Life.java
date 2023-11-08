@@ -13,7 +13,7 @@ import java.awt.event.MouseListener;
 public class Life implements MouseListener, ActionListener, Runnable {
 
     // variables and objects
-    boolean[][] cells = new boolean[10][10];
+    boolean[][] cells = new boolean[25][25];
     JFrame frame = new JFrame("Life simulation");
     LifePanel panel = new LifePanel(cells);
     Container south = new Container();
